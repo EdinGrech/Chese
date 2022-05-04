@@ -37,15 +37,6 @@ DEPENDENCES
   }
   
   /* 
-  focus state 
-  */
-  
-  .menu__link:focus{
-    outline: var(--menuLinkOutlineWidth, 2px) solid var(--menuLinkOutlineColor, currentColor);
-    outline-offset: var(--menuLinkOutlineOffset);
-  }
-  
-  /* 
   fading siblings
   */
   
@@ -140,9 +131,7 @@ DEPENDENCES
   body{
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Open Sans, Ubuntu, Fira Sans, Helvetica Neue, sans-serif;
     margin: 0;
-    min-height: 100vh;
-    display: flex;  
-    flex-direction: column;
+    min-height: 100vh;  
   }
   
   .page{
