@@ -140,19 +140,16 @@ DEPENDENCES
     margin-bottom: 4rem;
     /* margin: auto; */
   }
+
+  .center{
+    display: flex;
+    justify-content: center;
+    gap: 9rem;
+    align-items: center!important;
+  }
   
   .page__menu:nth-child(n+2){
     margin-top: 3rem;
-  }
-  
-  
-  .substack{
-    border:1px solid #EEE; 
-    background-color: #fff;
-    width: 100%;
-    max-width: 480px;
-    height: 280px;
-    margin: 1rem auto;;
   }
   
   .r-link{

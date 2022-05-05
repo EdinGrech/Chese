@@ -35,23 +35,69 @@ main{
     }
   }
 
+  .homeImg{
+    position: relative;
+  }
+
+  .blureReveal{
+    opacity: 0;
+    color: var(--alternitiveTextColour ,#ffffff);
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    transition: 0.2s ease-out;
+  }
+  /* colour Set */
+
+  .blureAlternitive{
+    --alternitiveTextColour: #000000;
+    left: 40% !important;
+  }
   .homeInfoCard img{
     opacity: 0;
+    border-radius: 40px;
       max-width: 400px;
-      padding-right: 30px;
+      padding-right: 60px;
       animation: fadeside 0.7s forwards;
-      animation-delay: 330ms;
+      animation-delay: 200ms;
+      -webkit-filter: blur(0);
+	    filter: blur(0);
+  }
+
+  .imgHorzInver{
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+  }
+
+  .imgHorzInver img{
+    padding-left: 0;
+    padding-right: 60;
+  }
+
+  .homeImg:hover img{
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  }
+
+  .homeImg:hover .blureReveal{
+    opacity: 1;
   }
  
   @keyframes fadeside {
     0% {
       opacity: 0;
-      transform: translateX(0);
+      transform: translateX(+20px);
     }
   
     100% {
       opacity: 1;
-      transform: translateX(-20px);
+      transform: translateX(0);
     }
   }
 
@@ -67,8 +113,23 @@ main{
   }
 
   .pPlaceHolder{
+    opacity: 0;
       width: 25rem;
-      padding-right: 30px;
+      padding-right: 60px;
+      animation: fadesideRev 0.7s forwards;
+      animation-delay: 200ms;
+  }
+
+  @keyframes fadesideRev {
+    0% {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
   }
 
   .pPlaceHolder p{
