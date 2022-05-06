@@ -1,0 +1,56 @@
+@media only screen and (max-width: 768px){
+    .prodCard{
+      flex-direction: column;
+    }
+    
+    main{
+      margin-left: 4rem; 
+      margin-right: 4rem;
+      margin-top: 3rem;
+    }
+  
+    .center{  
+      gap: 0;
+    }
+  
+    .menu__list{
+      justify-content: center;  
+    }
+    
+    .menu{
+      width: 768px;
+    }
+
+    .homeInfoCard{
+        flex-direction: column-reverse;
+        gap: 3rem;
+    }
+
+    .homeInfoCard img{
+          max-width: 400px;
+          padding-right: 0px;
+      }
+
+    .blureReveal{
+        width: 270px!important;
+        left: 75%;
+    }
+
+    .blureAlternitive{ 
+        left: 70%!important;
+      }
+
+    .imgHorzInverMQ{
+        -moz-transform: scale(-1, 1);
+        -webkit-transform: scale(-1, 1);
+        -o-transform: scale(-1, 1);
+        -ms-transform: scale(-1, 1);
+        transform: scale(-1, 1);
+    }
+
+    .imgHorzInverMQ img{
+        padding-left: 0;
+        padding-right: 60;
+    }
+
+  }
