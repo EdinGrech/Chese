@@ -161,3 +161,7 @@ DEPENDENCES
       color: var(--uirLinkTextColor) !important;
       text-decoration: var(--uirLinkTextDecoration) !important;
   }
+
+  .r-link-Alter{
+    --rLinkTextColor: white;
+  }
