@@ -15,7 +15,8 @@ DEPENDENCES
   }
   
   .r-list{
-    padding-left: var(--rListPaddingLeft, 0) !important;
+    align-items: center;
+    padding-left: 3.5rem;
     margin-top: var(--rListMarginTop, 0) !important;
     margin-bottom: var(--rListMarginBottom, 0) !important;
     list-style: var(--rListListStyle, none) !important;
@@ -51,12 +52,13 @@ DEPENDENCES
   */
   
   .menu{
+    width: 1920px;
     background-color: var(--menuBackgroundColor, #f0f0f0);
     box-shadow: var(--menuBoxShadow, 0 1px 3px 0 rgba(0, 0, 0, .12), 0 1px 2px 0 rgba(0, 0, 0, .24));
   }
   
   .menu__list{
-    display: flex;  
+    display: flex;
   }
   
   .menu__link{
@@ -138,6 +140,7 @@ DEPENDENCES
     box-sizing: border-box;
     max-width: 100%;
     margin-bottom: 4rem;
+    align-items: center!important;
     /* margin: auto; */
   }
 

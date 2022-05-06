@@ -7,7 +7,7 @@ $(".info").click(function(){
     flip = true;
     }
     else {
-        $(".infoPopOut").css("opacity", "0").css("padding-left","0px").css("visability","hidden");
+        otherInput.css("opacity", "0").css("padding-left","0px").css("visability","hidden");
         flip = false;
     }
 });

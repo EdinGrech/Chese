@@ -19,6 +19,7 @@ main{
     flex: 1;
     font-size: 4rem;
     display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
   }
