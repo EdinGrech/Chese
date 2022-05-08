@@ -11,3 +11,13 @@ $(".info").click(function(){
         flip = false;
     }
 });
+
+$().ready(function(){
+    $('.container').height($('.container').width());
+    $('.overlay p').height($('.container').width());
+});
+
+window.addEventListener('resize', function(event) {
+    $('.container').height($('.container').width());
+    $('.overlay p').height($('.container').width());
+}, true);

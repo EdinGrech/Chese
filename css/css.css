@@ -55,6 +55,7 @@ main{
     --alternitiveTextColour: #000000;
     left: 40% !important;
   }
+  
   .homeInfoCard img{
     opacity: 0;
     border-radius: 40px;

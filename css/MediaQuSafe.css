@@ -1,25 +1,18 @@
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1000px){
     .prodCard{
       flex-direction: column;
     }
     
     main{
-      margin-left: 4rem; 
-      margin-right: 4rem;
-      margin-top: 3rem;
+      margin-left: 7%; 
+      margin-right: 7%;
+      margin-top: 7%;
     }
   
     .center{  
       gap: 0;
     }
-  
-    .menu__list{
-      justify-content: center;  
-    }
     
-    .menu{
-      width: 768px;
-    }
 
     .homeInfoCard{
         flex-direction: column-reverse;
@@ -27,9 +20,14 @@
     }
 
     .homeInfoCard img{
-          max-width: 400px;
+          max-width: 80%;
           padding-right: 0px;
       }
+
+    .pPlaceHolder{
+      width: 90%;
+      padding-right: 60px;
+    }
 
     .blureReveal{
         width: 270px!important;
@@ -53,4 +51,22 @@
         padding-right: 60;
     }
 
+    .menu__link{
+      --menuLinkPadding: 0.6rem 1rem;
+    }
+
+    .hero-headline {
+      font-size: 3rem;
+    }
+
+    .overlay p{
+      height: inherit;
+    }
+
+  }
+
+  @media only screen and (max-width: 530px){
+    p{
+      font-size: .75rem;
+    }
   }

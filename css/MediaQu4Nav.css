@@ -1,0 +1,29 @@
+@media only screen and (max-width: 1000px){
+    .hero-headline {
+      font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 740px){
+    .menu__link{
+      --menuLinkPadding: 0.6rem 1rem;
+    }
+
+    .r-list{
+      padding-left: 0;
+    }
+
+    .menu__list{
+        justify-content: center;  
+      }
+  }
+
+@media only screen and (max-width: 450px){
+    .hero-headline {
+        font-size: 2.5rem;
+      }
+
+    .menu__link{
+        --menuLinkPadding: 0.6rem 0.6rem!important;
+    }
+  }

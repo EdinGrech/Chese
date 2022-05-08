@@ -1,23 +1,130 @@
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1400px){
     .prodCard{
       flex-direction: column;
-    }
-    
-    main{
-      margin-left: 4rem; 
-      margin-right: 4rem;
-      margin-top: 3rem;
     }
   
     .center{  
       gap: 0;
     }
-  
-    .menu__list{
-      justify-content: center;  
+
+    .container{
+      width: 100%;
+    }
+
+    .overlay p{
+      width: 100%;
+    }
+
+    img {
+      width: 99.9%;
+      height: 99.9%;
+    }
+
+    .title{
+      top: 40%;
+      font-size: 550%;
+      width: 100%;
+    }
+
+    .container:hover .title {
+      top: 35%;
+    }
+
+    .buttonOffSet{
+      --buttofset: 76%;
     }
     
-    .menu{
-      width: 768px;
+    .button a {
+      width: auto;
+      font-size: 2rem;
+      border-radius: 30px;
+      padding: 20% 50%;
     }
+
+    .button {
+      width: auto;
+      left:var(--buttofset, 57%);
+      top: 86%;
+    }
+
+    .infoPopOut{
+      width: 100%;
+      padding-left: 0!important;
+    }
+
+    .infoPopOut h2{
+      font-size: 3rem;
+    }
+
+    .infoPopOut p{
+      font-size: 2.1rem;
+    }
+    
+  }
+
+@media only screen and (max-width: 1000px){
+    .hero-headline {
+      font-size: 3rem;
+    }
+
+    main{
+      margin: 2%;
+    }
+
+    .container:hover .title {
+      top: 35%;
+    }
+  }
+
+@media only screen and (max-width: 760px){
+    .button a {
+      font-size: 1.5rem;
+    }
+  }
+
+@media only screen and (max-width: 556px){
+  .title{
+    top: 50%;
+    font-size: 350%;
+  }
+
+  .button a {
+    font-size: 1.2rem;
+  }
+
+  .infoPopOut h2{
+    font-size: 2rem;
+  }
+
+  .infoPopOut p{
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (max-width: 460px){
+  .hero-headline {
+    font-size: 2.5rem;
+  }
+
+  .title{
+    top: 50%;
+    font-size: 250%;
+  }
+
+  .container:hover .title {
+    top: 45%;
+  }
+
+  .button a {
+    font-size: 1rem;
+  }
+
+  .infoPopOut h2{
+    font-size: 1.4rem;
+  }
+
+  .infoPopOut p{
+    font-size: 0.7rem;
+  }
+
   }
