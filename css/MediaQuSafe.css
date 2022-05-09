@@ -8,11 +8,6 @@
       margin-right: 7%;
       margin-top: 7%;
     }
-  
-    .center{  
-      gap: 0;
-    }
-    
 
     .homeInfoCard{
         flex-direction: column-reverse;
@@ -49,10 +44,6 @@
     .imgHorzInverMQ img{
         padding-left: 0;
         padding-right: 60;
-    }
-
-    .menu__link{
-      --menuLinkPadding: 0.6rem 1rem;
     }
 
     .hero-headline {

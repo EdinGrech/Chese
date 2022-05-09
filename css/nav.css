@@ -167,3 +167,31 @@ DEPENDENCES
   .r-link-Alter{
     --rLinkTextColor: white;
   }
+
+  .margTop{
+    margin-top: 5%;
+  }
+
+  .hero-headline {
+    margin: 0 0 1rem;
+    animation: fadeInUp 0.7s forwards;
+    opacity: 0;
+    flex: 1;
+    font-size: 4rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(0);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateY(-18px);
+    }
+  }

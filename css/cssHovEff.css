@@ -56,7 +56,7 @@ img {
 
 .prodCard{
   display: flex;
-  flex: 1;
+  flex-direction: row;
   opacity: 0;
   animation: fadeUp 0.7s forwards;
   animation-delay: 200ms;

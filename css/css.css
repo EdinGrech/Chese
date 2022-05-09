@@ -12,18 +12,6 @@ main{
     margin-top: 3rem;
 }
 
-.hero-headline {
-    margin: 0 0 1rem;
-    animation: fadeInUp 0.7s forwards;
-    opacity: 0;
-    flex: 1;
-    font-size: 4rem;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-  }
-
 @keyframes fadeInUp {
     0% {
       opacity: 0;
@@ -134,10 +122,10 @@ main{
     }
   }
 
-  .pPlaceHolder p{
+.pPlaceHolder p{
     justify-content: right;
 }
 
-  .allightRight{
+.allightRight{
     flex-direction: row-reverse;
   }
