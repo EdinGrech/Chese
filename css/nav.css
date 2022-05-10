@@ -81,7 +81,8 @@
   cursor: pointer;
   width: 4%;
   min-width: 35px;
-  padding: var(--menuLinkPadding, 1% 5.2%);
+  padding: var(--menuLinkPadding, 1%);
+  padding-left: 18%;
   fill: black;
 }
 /*

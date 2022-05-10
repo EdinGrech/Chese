@@ -13,6 +13,10 @@
       --menuLinkPadding: 0.6rem 1rem;
     }
 
+    #navCheeseSvg{
+      padding-left: 8%;
+    }
+
     .r-list{
       padding-left: 0;
     }
@@ -39,5 +43,9 @@
 
     .menu__link{
         --menuLinkPadding: 0.6rem 0.6rem!important;
+    }
+
+    #navCheeseSvg{
+      padding-left: 0.6rem;
     }
   }
