@@ -1,6 +1,89 @@
 *{
   margin: 0%;
 }
+
+ @-webkit-keyframes animate-svg-fill-1 {
+  0% {
+    fill: transparent;
+  }
+
+  100% {
+    fill: rgb(0, 0, 0);
+  }
+}
+
+@keyframes animate-svg-fill-1 {
+  0% {
+    fill: transparent;
+  }
+
+  100% {
+    fill: rgb(0, 0, 0);
+  }
+}
+
+.svg-elem-1 {
+  -webkit-animation: animate-svg-fill-1 0.2s cubic-bezier(0.77, 0, 0.175, 1) 0.1s both;
+          animation: animate-svg-fill-1 0.2s cubic-bezier(0.77, 0, 0.175, 1) 0.1s both;
+}
+
+@-webkit-keyframes animate-svg-fill-2 {
+  0% {
+    fill: transparent;
+  }
+
+  100% {
+    fill: rgb(0, 0, 0);
+  }
+}
+
+@keyframes animate-svg-fill-2 {
+  0% {
+    fill: transparent;
+  }
+
+  100% {
+    fill: rgb(0, 0, 0);
+  }
+}
+
+.svg-elem-2 {
+  -webkit-animation: animate-svg-fill-2 0.2s cubic-bezier(0.77, 0, 0.175, 1) 0.4s both;
+          animation: animate-svg-fill-2 0.2s cubic-bezier(0.77, 0, 0.175, 1) 0.4s both;
+}
+
+@-webkit-keyframes animate-svg-fill-3 {
+  0% {
+    fill: transparent;
+  }
+
+  100% {
+    fill: rgb(0, 0, 0);
+  }
+}
+
+@keyframes animate-svg-fill-3 {
+  0% {
+    fill: transparent;
+  }
+
+  100% {
+    fill: rgb(0, 0, 0);
+  }
+}
+
+.svg-elem-3 {
+  -webkit-animation: animate-svg-fill-3 0.2s cubic-bezier(0.77, 0, 0.175, 1) 0.7s both;
+          animation: animate-svg-fill-3 0.2s cubic-bezier(0.77, 0, 0.175, 1) 0.7s both;
+}
+
+#navCheeseSvg{
+  cursor: pointer;
+  width: 4%;
+  min-width: 35px;
+  padding: var(--menuLinkPadding, 1% 5.2%);
+  fill: black;
+}
 /*
 =====
 DEPENDENCES

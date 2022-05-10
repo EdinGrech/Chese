@@ -22,6 +22,16 @@
       }
   }
 
+@media only screen and (max-width: 500px){
+  .menu__group{
+    display: none;
+  }
+
+  #navCheeseSvg{
+    padding-right: 80%;
+  }
+}
+
 @media only screen and (max-width: 450px){
     .hero-headline {
         font-size: 2.5rem;
