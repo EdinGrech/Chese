@@ -148,8 +148,13 @@ DEPENDENCES
   
   .menu__link{
     padding: var(--menuLinkPadding, 1.5rem 2.5rem);
-    font-weight: 700;
+    font-weight: var(--lightFont,700);
     text-transform: uppercase;
+  }
+
+  .menu__light{
+    --lightFont: 500;
+    text-transform:none!important;
   }
   
   /* 

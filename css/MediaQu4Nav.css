@@ -10,7 +10,7 @@
 
 @media only screen and (max-width: 740px){
     .menu__link{
-      --menuLinkPadding: 0.6rem 1rem;
+      --menuLinkPadding: 0.6rem 1rem;    
     }
 
     #navCheeseSvg{
@@ -24,6 +24,10 @@
     .menu__list{
         justify-content: center;  
       }
+
+    .menu__light{
+      padding-bottom: 8%!important;
+    }
   }
 
 @media only screen and (max-width: 500px){
