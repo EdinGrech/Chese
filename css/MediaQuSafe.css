@@ -15,13 +15,21 @@
     }
 
     .homeInfoCard img{
-          max-width: 80%;
-          padding-right: 0px;
+      border-radius: 0%;
+      max-width: none;
+      width: 100%!important;
+      object-fit: cover!important;
+      padding-right: 0px;
+      max-height: 250px;
       }
 
     .pPlaceHolder{
       width: 90%;
       padding-right: 60px;
+    }
+
+    .pPlaceHolder p{
+      font-size: 1.5rem;
     }
 
     .blureReveal{
@@ -43,7 +51,6 @@
 
     .imgHorzInverMQ img{
         padding-left: 0;
-        padding-right: 60;
     }
 
     .hero-headline {
