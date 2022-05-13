@@ -50,3 +50,7 @@ window.addEventListener('resize', function(event) {
         $('.overlay p').height("auto");
     }
 }, true);
+
+$(".buttonOffSet").click(function(){
+    alert("product added to cart");   
+});
